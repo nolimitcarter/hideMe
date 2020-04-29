@@ -40,7 +40,7 @@ def hide(filename, message):
         digit = 0 
         temp = ''
         for item in datas: 
-            if (digit < less(binary)):
+            if (digit < len(binary)):
                 newpix = encode(rgb2hex(item[0], item[1], item[2]), binary[digit])
                 if newpix == None:
                     newData.append(item) 
