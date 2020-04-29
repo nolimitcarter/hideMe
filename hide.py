@@ -3,7 +3,7 @@ import binascii
 import optparse
 
 def rgb2hex(r, g, b):
-    return '#{:02x}{:02x}{02x}'.format(r, g, b)
+    return '#{:02x}{:02x}{:02x}'.format(r, g, b)
 
 def hex2rgb(hexcode):
     return tuple(map(ord, hexcode[1:].decode('hex')))
@@ -18,7 +18,7 @@ def bin2str(binary):
 
 def encode(hexcode, digit): 
     if hexcode[-1] in ('0', '1', '2', '3', '4', '5'):
-        hexcode = hexocde[:-1]+digit
+        hexcode = hexcode[:-1]+digit
         return hexcode 
     else: 
         return None
@@ -41,7 +41,7 @@ def hide(filename, message):
         temp = ''
         for item in datas: 
             if (digit < len(binary)):
-                newpix = encode(rgb2hex(item[0], item[1], item[2]), binary[digit])
+                newpix = encode(rgb2hex(item[0], item[1], item[2]),binary[digit])
                 if newpix == None:
                     newData.append(item) 
                 else: 
