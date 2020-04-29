@@ -77,9 +77,9 @@ def retr(filename):
     return "Incorrect image mode, couldn't retrieve"
 
 def Main():
-    parser + optparse.OptionParser('usage %prog '+\
+    parser = optparse.OptionParser('usage %prog '+\
             '-e\-d <target file>') 
-    parser.add_option('-e', dest-'hide', type='string', \
+    parser.add_option('-e', dest='hide', type='string', \
             help='target picture path to hide text')
     parser.add_option('-d', dest='retr', type='string', \
             help='target picture path to retrieve text') 
