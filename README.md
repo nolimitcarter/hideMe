@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.com/nolimitcarter/steganography.svg?branch=master)](https://travis-ci.com/nolimitcarter/steganography)
 # Steganography project that was made with Python and a random .png file.
 ### A Python program that hides and retrieves text from .png file pictures.  
 
