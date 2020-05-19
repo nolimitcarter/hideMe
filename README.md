@@ -3,12 +3,15 @@
 
 Requirements: 
 pip
-image, pip install image
+image, `pip install image`
 
 Usage: 
-python hide.py
-python hide.py -e picture.png(whatever picture you have in the repo) to add the encrypted message
-python hide.py -d picture.png to decrypt the message contained in the photo
+
+`python hide.py`
+
+`python hide.py -e picture.png`(whatever picture you have in the repo) to add the encrypted message
+
+`python hide.py -d picture.png` to decrypt the message contained in the photo
 
 
 Several functions are used for manipulating the data: rgb2hex, hex2rgb, str2bin, bin2str
