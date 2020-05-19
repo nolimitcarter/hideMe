@@ -1,6 +1,0 @@
-language: python
-os: 
-  - linux
-dist: xenial
-script: 
-  - python hide.py -e "message" picture.png
