@@ -1,5 +1,5 @@
 
-dule Travis
+module Travis
   module Build
       class Script
             class Python < Script
