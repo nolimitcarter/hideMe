@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/travis-ci/travis-web.svg?branch=master)](https://travis-ci.com/travis-ci/travis-web)
+
 # Steganography project that was made with Python and a random .png file.
 ### A Python program that hides and retrieves text from .png file pictures.  
 
