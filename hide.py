@@ -71,7 +71,7 @@ def retr(filename):
             else: 
                 binary = binary + digit 
                 if (binary[-16:] == '1111111111111110'):
-                    print "Success" 
+                    print("Success") 
                     return bin2str(binary[:-16])
         return bin2str(binary) 
     return "Incorrect image mode, couldn't retrieve"
