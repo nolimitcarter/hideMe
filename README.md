@@ -18,6 +18,7 @@ Usage:
 
 Several functions are used for manipulating the data: rgb2hex, hex2rgb, str2bin, bin2str
 
+This project was made to demonstrate my knowledge in steganography, and how to encrypt, decrpyt messages within .png pictures. 
 
 How it works: 
 It will open the image and look at the pixels in hexadecimal. If the pixels blue channel falls in the 0-5 range then 1 bit of information will be stored. It ends the stream with a delimiter of fifteen 1's and a 0 to take up two bytes. When it is time to retrieve, it pulls all the blue bits of 0 and 1 until the stream obtains the delimiter of fifteen 1's and a 0.  
